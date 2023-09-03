@@ -36,12 +36,12 @@ public class PlayZone extends JPanel implements ActionListener {
         setFocusable(true);
         setPreferredSize(new Dimension(zoneWidth, zoneHeight));
         setBackground(Color.BLACK);
-        bhanuGame();
+        Game();
         resourcesImage();
     }
 
     // initializing the game
-    public void bhanuGame() { // initGame method
+    public void Game() { // initGame method
         part = 3;
         // initialize snake position
         x[0] = 250;
